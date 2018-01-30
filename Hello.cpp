@@ -1,5 +1,8 @@
 #include <iostream>
+
 int multiply(int x, int y);
+int add(int x, int y);
+
 int main()
 {
 	std::cout<<"Hello World!\n";
@@ -9,4 +12,9 @@ int main()
 int multiply(int x, int y)
 {
 	return x * y;
+}
+
+int add(int x, int y)
+{
+	return x + y;
 }
